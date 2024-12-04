@@ -36,10 +36,7 @@ Content Organization:
 Recent and All Blog Posts are clearly differentiated.
 Pagination makes it easy to navigate.
 Social Media Integration: Footer links enhance discoverability and connectivity.
----------------------------------------------------------------------------------------------------------
 
-
----------------------------------------------------------------------------------------------------------
 JavaScript Code: Dark Mode Toggle
 Implementation Goal and Summary
 This piece of JavaScript code adds dark mode toggle functionality to the webpage. It will not allow the user's preference on theme to be lost at a session level, using local storage. The script makes dynamic changes between light and dark themes by adding/removing the respective CSS class from the <body>.
