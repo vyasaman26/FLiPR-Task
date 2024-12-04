@@ -37,56 +37,6 @@ Recent and All Blog Posts are clearly differentiated.
 Pagination makes it easy to navigate.
 Social Media Integration: Footer links enhance discoverability and connectivity.
 ---------------------------------------------------------------------------------------------------------
-CSS Code: Light and Dark Theme Implementation
-The CSS styles provided can enable both light and dark themes on a webpage. These two styles have different colours, typography, and design-specific implementations. The following toggle button is enabled via JavaScript, which dynamically enables switching styles based on either a light-theme or a dark-theme class assigned to the body.
-
-Main Options
-Light Theme Default
-Default background colors are all light.
-Text and text elements on navigation links become dark colored (#212529, #333).
-Simple, minimalist card designs without prominent borders or shadows.
-Clean and soft color palette for badges and other components.
-Dark Theme Enhancements
-This sets the body background to a dark shade (#090D20).
-It adapts text, links, and UI elements to be light or white to ensure better readability.
-Interactive elements updated to include:
-Cards: It styles with dark backgrounds and white text.
-Pagination: It is styled with white text and no borders.
-Social Links: It makes use of light text on dark backgrounds to make the text readable.
-Navbar: Preserves the dark background and light text color scheme.
-Typography:
-
-A single font family, Arial, Helvetica, sans-serif, for all elements.
-Custom scaling for some elements:
-.the-blog1 employs an extremely large font size of 200px to make a dramatic heading for the blog section.
-Interactive elements have smooth transitions (e.g.,.nav-link hover states).
-Layout and Spacing:
-
-Flexbox is used throughout to generate flexible, responsive layouts:
-.grid-box makes sure that cards are neatly aligned.
-.card-content maintains a horizontal layout for images and text.
-Cards
- Cards are structured to be responsive and occupy the available width and height.
-Badges
- All badges are color coded on categories like Design, Research, and Leadership.
- It has rounded corners.
-Transitions and Animations
-All interactive elements like hover on navigation links have minimal animation.
-Strengths
- Dark Mode Readiness
-In the implementation of dark mode, all critical UI components have been covered.
-Ensuring readability and accessibility, colors for background and text were carefully contrasted.
-Consistency:
-
-Unified styling ensures a uniform look between the light and dark themes
-Shared base layout properties are used (padding, border-radius, etc.) that maintain the consistency of designs
-Flexibility
-
-Make use of modular classes, which allows for reusable pieces (for example, badge-b-11, badge-b-12).
-Card and grid-based designs responsive and adaptive to different screens.
-Scalability:
-
-Extends very easily towards new components or themes; just add styles to their theme-specific classes (for example, body.light-theme, body.dark-theme).
 
 
 ---------------------------------------------------------------------------------------------------------
@@ -105,7 +55,7 @@ It will listen to the change event on the checkbox element named darkModeToggle.
 Upon toggle;
 It will add the class dark-theme along with remove the class light-theme if switch is turned ON
 Add the class light-theme along with remove the dark-theme class if the switch is turned OFF
-This selected theme is saved to localStorage to persist.
+This selected theme is saved to localStorage to persist.a
 Dynamic Theme Application:
 
 Updates the state of the toggle switch (checked) based on the current theme stored in localStorage.
